@@ -7,13 +7,20 @@ function App() {
       <header id="head">
         <img src={GAMELOGO} className='GAMELOGO'></img>
         <input type="checkbox" id="menu" />
-        <ul className='opciones'>
+        <ul className='opciones'><a></a>
           <li className="item">Home</li>
+          <li className="item"><a href= "#reviews" >reviews</a></li>
+          <li className="item"><a href= "#giveaways" >giveaways</a></li>
+          <li className="item"><a href= "#noticias" >noticias</a></li>
           <li className="item">Sobre mi</li>
           <li className="item" id="login">Login</li>
         </ul>
         <ul className='opcionesDesplegables'>
           <li className="itemDesplegable">Home</li>
+          <li className="itemDesplegable"><a href= "#reviews" >reviews</a></li>
+          <li className="itemDesplegable"><a href= "#giveaways" >giveaways</a></li>
+          <li className="itemDesplegable"><a href= "#noticias" >noticias</a></li>
+          <li className="itemDesplegable">Sobre mi</li>
           <li className="itemDesplegable">Sobre mi</li>
           <li className="itemDesplegable" id="login">Login</li>
         </ul>
@@ -24,11 +31,22 @@ function App() {
         </label>
       </header>
 
-      <section>
+      <section id="home" className='seccion'>
         <h2>Bienvenido a GAMESHELPER</h2>
         <p>En esta app podra encontrar multiples recursos y reviews sobre el mundo de los videojuegos</p>
       </section>
 
+      <section id="reviews" className='seccion'>
+       <h2>reviews</h2>
+      </section>
+
+      <section id="giveaways" className='seccion'>
+      <h2>giveaways</h2>
+      </section>
+
+      <section id="noticias" className='seccion'>
+      <h2>noticias</h2>
+      </section>
     </>
   )
 }
