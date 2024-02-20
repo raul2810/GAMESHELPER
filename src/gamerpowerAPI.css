@@ -1,0 +1,36 @@
+.scrollable-section {
+    height: 70vh; /* Set the desired height for your scrollable section */
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    padding: 50px; /* Optional: Add padding for better appearance */
+    margin-left: 300px ; /* Optional: Add margin for better appearance */
+    margin-right: 300px; /* Optional: Add margin for better appearance */
+    border: solid; /* Optional: Add border for better appearance */
+    border-color: rgb(105, 99, 89); /* Optional: Set border color */
+    border-radius: 20px;
+  }
+
+  .giveaway{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px ;
+    margin-right: 150px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 22px;
+    padding: 3px;
+  }
+
+  .gifttext{
+    width: 20em; /* set the width of the element */
+    overflow: hidden;  /* hide the overflowing text */
+    white-space: nowrap; /* don't break the line */
+    text-overflow: ellipsis; /* give the beautiful '...' effect */
+  }

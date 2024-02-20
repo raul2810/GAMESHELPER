@@ -1,5 +1,6 @@
 import GAMELOGO from './assets/GAMEHELPER LOGO.png'
 import './App.css'
+import GamerPower from './gamerpowerAPI.jsx'
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
       </section>
 
       <section id="giveaways" className='seccion'>
-      <h2>giveaways</h2>
+        <GamerPower />
       </section>
 
       <section id="noticias" className='seccion'>
