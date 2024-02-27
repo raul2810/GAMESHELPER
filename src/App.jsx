@@ -1,6 +1,8 @@
 import GAMELOGO from './assets/GAMEHELPER LOGO.png'
 import './App.css'
 import GamerPower from './gamerpowerAPI.jsx'
+import OpenCriticAPI from './OpenCriticAPI.jsx'
+import MMOnewsAPI from './MMOnewsAPI.jsx'
 
 function App() {
   return (
@@ -38,7 +40,7 @@ function App() {
       </section>
 
       <section id="reviews" className='seccion'>
-       <h2>reviews</h2>
+       <OpenCriticAPI/>
       </section>
 
       <section id="giveaways" className='seccion'>
@@ -46,7 +48,7 @@ function App() {
       </section>
 
       <section id="noticias" className='seccion'>
-      <h2>noticias</h2>
+      <MMOnewsAPI/>
       </section>
     </>
   )
